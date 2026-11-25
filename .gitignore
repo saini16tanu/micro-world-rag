@@ -1,0 +1,29 @@
+# secrets
+.env
+.env.local
+web/.env.local
+
+# python
+.venv/
+__pycache__/
+
+# runtime data (rebuilt by the app)
+chroma_db/
+data/uploads/
+data/current.json
+
+# frontend
+web/node_modules/
+web/.next/
+
+# macOS
+.DS_Store
+
+# course PDFs stay on the laptop only
+*.pdf
+
+# catch-all (any depth)
+.venv
+node_modules/
+.next/
+*.tsbuildinfo
